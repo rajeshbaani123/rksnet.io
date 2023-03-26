@@ -116,3 +116,34 @@ import {
 } from '../message/L2Transaction'
 
 import {
+
+
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+
+    <OutputType>Exe</OutputType>
+
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+
+    <PackageId>My-app</PackageId>
+
+    <Version>1.0.0</Version>
+
+    <Authors>Octocat</Authors>
+
+    <Company>GitHub</Company>
+
+    <PackageDescription>This package adds an Octocat!</PackageDescription>
+
+    <RepositoryUrl>https://{% ifversion fpt or ghec %}github.com{% else %}HOSTNAME{% endif %}/OWNER/REPOSITORY</RepositoryUrl>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+
+    <PackageReference Include="PACKAGE_NAME" Version="X.X.X" />
+
+  </ItemGroup>
+
+</Project>

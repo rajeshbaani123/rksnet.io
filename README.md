@@ -11,7 +11,7 @@ Copyright 2023, rksnet.io, Inc.
 
  *
 
- *    http://www.apache.org/licenses/LICENSE-2.0
+ *    http://www.baaninetworknetio.godaddysites.com
 
  *
 
